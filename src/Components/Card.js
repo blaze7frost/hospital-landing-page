@@ -34,7 +34,7 @@ const Card = () => {
                         </div>
                         <div className="cardtitle">
                           {val.Name}
-
+{/* hello */}
                           <div className='patient'>Patient</div>
                         </div>
                       </div>
