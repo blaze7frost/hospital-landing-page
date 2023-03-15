@@ -68,11 +68,15 @@ background: #EBEEFF;
   background-color: #ECF4FF;
 }
 .btn1{
+  margin-top: 1rem;
+  margin-left: .5rem;
   border-radius: 30px;
   height: 60px;
   width: 259px;
 }
 .btn2{
+  margin-top: 1rem;
+  margin-left: .5rem;
   background-color: #ffffff;
   border-radius: 30px;
   height: 60px;
