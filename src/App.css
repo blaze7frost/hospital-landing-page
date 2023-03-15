@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  background: #f8fdff;
+}
 
 .App-logo {
   height: 40vmin;
@@ -13,8 +16,9 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #f8fdff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +26,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4rem;
+    padding-left: 0.5rem;
+}}
+
+.jumbotron{
+
+height: 672px;
+width: 574;
+/* background: #1330d6; */
+border-radius: 32px;
+background: #EBEEFF;
+
+;
 }
 
 .App-link {
@@ -36,3 +57,221 @@
     transform: rotate(360deg);
   }
 }
+
+.Contactbtn{
+  background: #007FF4;
+  border-radius: 25px;
+  height: 50px;
+  width: 175px;
+}
+.footer{
+  background-color: #ECF4FF;
+}
+.btn1{
+  border-radius: 30px;
+  height: 60px;
+  width: 259px;
+}
+.btn2{
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 60px;
+  width: 259px;
+}
+.Welcome{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#002348;
+  ;
+}
+.best{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #003B79;
+  font-size: 64px;
+  ;
+}
+.we{
+  
+  color: #002348;
+  font-family: 'Source Sans Pro regular', sans-serif;
+  font-size: 25px;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+.services{
+  padding-top: 10%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#002348;
+  font-size: 64px;
+
+}
+.provide{
+  text-align: center;
+}
+/* .btn0{
+  height: 70px;
+}
+.btn0:hover {
+  background-color: #4CAF50;
+  color: blue;
+} */
+ .card2{
+  height: 323px;
+  width: 15rem;
+
+  border-radius: 20px;
+background-color: #007FF4;
+ }
+ .card1{
+  height: 323px;
+width: 15rem;
+
+border-radius: 20px;
+background-color: #ffffff;
+
+ }
+ .abc:hover{
+  height: 25rem;
+}
+ .cardimg{
+  height: 127.43462371826172px;
+width: 113.25347900390625px;
+left: 164.0050048828125px;
+top: 1298.2801513671875px;
+border-radius: 0px;
+
+ }
+ 
+
+ .main2{
+
+background: #FFFFFF;
+
+ }
+ .main2c1{
+  position:relative;
+  padding-top: 50%;
+  padding-bottom: 50%;
+ }
+ .card-text1{
+  position: relative;
+  bottom: 4rem !important;
+ 
+ }
+ .clinic{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 54px;
+  color: #003B79;
+ }
+ .doctor1{
+  position:relative;
+  top: -7rem;
+
+ }
+.main2col2{
+  border-radius:10% ;
+  background-color: #ffffff;
+  height: 15rem;
+  
+top: -7rem;
+}
+.main2col1{
+  /* width: 13rem; */
+  border-radius:10% ;
+  background-color: #ffffff;
+ height: 15rem;
+ justify-content: center;
+}
+.main3card{
+  align-items: center;
+    background-color: #AED3E2;
+    height: 20rem;
+    width: 14rem;
+    border-radius: 20px;
+    border: 0ch;
+}
+.card-header{
+  height: 2.5rem;
+  width: 14rem;
+  padding-bottom: 4rem;
+margin-top: 15.1rem;
+background-color: #FFFFFF;
+border-bottom-left-radius: 20px !important;
+border-bottom-right-radius: 20px !important;
+
+}
+.comcard{
+margin-top: 10rem;
+background-color: #F8FDFF;
+}
+.cardel{
+  border-radius: 20px;
+
+  
+}
+.cardtext{
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+font-size: medium;
+  font-family: Source Sans Pro regular;
+}
+.cardtitle{
+  font-family: Source Sans Pro;
+  font-size: larger;
+  padding-left: 6rem;
+  padding-bottom: 0rem !important;
+}
+.patient{
+  padding-left: 0rem;
+  font-family: Source Sans Pro regular;;
+  font-size: medium;
+}
+.dabba{
+  position: absolute;
+  width: 4.5rem;
+  size: 1rem;
+  top: -1.5rem;
+  right: -1.5rem;
+}
+.cardblue{
+  background-color: #007FF4;
+  border-radius: 20px;
+  height: 30rem;
+  
+}
+.emailbox{
+  position: relative;
+  border-radius: 20px !important;
+  padding-left: 5%;
+  padding-right: 3rem;
+  height: 7rem;
+  font-size: 2rem;
+}
+.subscribe{
+  padding-top: 5%;
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-family: Source Sans Pro;
+}
+.experience{
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: #FFFFFF;
+}
+ .btnneeche{
+  border-radius: 2rem !important;
+  height: 4rem;
+  width: 10rem;
+ }
+ .searchbar{
+  width: 50rem;
+ }
+
+
+ .item{
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+ }
+
