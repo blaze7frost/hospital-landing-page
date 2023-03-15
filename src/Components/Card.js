@@ -15,31 +15,33 @@ const Card = () => {
     <>
       <div>
         <div className='container comcard'>
-          <div className="row">
+          <div className="row cck ">
             {
               Object.values(data).map((val) => {
                 return (
-
-                  <div className="container col-6 py-3 px-3">
-                    <div className="card cardel shadow">
-                      <div>
-                        <img src={dabba} className="dabba float-right" />
-                      </div>
-
-                      <div className="card-body">
-                        <div className="cardtext">{val.Reviews}
+                  
+                    <div className=" container ccg col-6 py-3 px-3"> 
+                    {/* py-3 px-3 */}
+                      <div className="card cardel shadow">
+                        <div>
+                          <img src={dabba} className="dabba float-right" />
                         </div>
-                        <div className='pl-4'>
-                          <img src={oval} className="rounded float-left"/>
-                        </div>
-                        <div className="cardtitle">
-                          {val.Name}
-{/* hello */}
-                          <div className='patient'>Patient</div>
+
+                        <div className="card-body">
+                          <div className="cardtext">{val.Reviews}
+                          </div>
+                          <div className='pl-4'>
+                            <img src={oval} className="rounded float-left" />
+                          </div>
+                          <div className="cardtitle">
+                            {val.Name}
+
+                            <div className='patient'>Patient</div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  
 
                 )
               })
@@ -62,8 +64,8 @@ const Card = () => {
             <div className='container d-flex justify-content-center p-5'>
               <InputGroup type="email" className=" searchbar form-control emailbox d-flex align-items-center d-flex justify-content-end " placeholder="Enter your email"  >
                 <button type="button" className=" btnneeche btn btn-primary">Send Now</button>
-                </InputGroup>
-           
+              </InputGroup>
+
 
 
             </div>
